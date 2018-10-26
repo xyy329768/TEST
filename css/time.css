@@ -1,0 +1,70 @@
+	
+#my_time_panel {
+	position: fixed;
+	display: none;
+	/*z-index: 1;*/
+	width:260px;
+	height:160px;
+	overflow:hidden;
+	background-color:#FFFFFF;
+	margin-top:1px;
+	margin-left:-180px;
+	border: 2px solid #C0C0C0;
+	border-top: hidden;	
+	color:#000000;
+}
+	
+#my_time_panel .close {
+	position: absolute;
+	padding-left:80px;
+	margin-top:-25px;
+}
+
+#time_panel_top {
+	width:260px;
+	height:60px;
+	padding-top:10px;
+	padding-left: 0px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#time_panel_top h3{
+	position: absolute;
+	margin-top:-25px;
+}
+
+#time_panel_top select{
+	margin-left: 5px;
+}
+
+#time_panel_bottom {
+	width:260px;
+	height:60px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#time_panel_bottom h3{
+	position: absolute;
+	margin-top: -25px;
+}
+
+#time_panel_bottom select{
+	margin-left: 5px;
+}
+
+.sure {
+	position: absolute;
+	margin-left: -70px;
+	width:50px;
+	background-color: beige;
+	border-radius: 15px;
+	margin-top: 4px;
+}
+
+.btn-default {
+	position:absolute;
+	width:50px;
+	background-color: beige;
+	border-radius: 15px;
+	margin-top: 4px;
+}
